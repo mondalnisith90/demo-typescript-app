@@ -30,4 +30,5 @@ app.get("/user/profile/:uid", (req, res) => {
 
 app.listen(PORT, () => {
     console.log(`Server is running at port ${PORT}`);
+    console.log("I make this changes for testing purpose...");
 });
